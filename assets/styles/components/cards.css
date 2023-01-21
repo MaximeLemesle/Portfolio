@@ -1,0 +1,53 @@
+.main__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.main__container .container__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6.25rem;
+    transition: all .3s ease-in-out;
+}
+
+.container__item.projets__spa {
+  background-image: url(../../img/img_spa_de_la_rue/back_spa_tel.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.container__item.projets__neos {
+    background-image: url(../../img/img_neos/back_neos_tel.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.container__item.projets__nftra {
+    background-image: url(../../img/img_nftra/back_nftra_tel.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.container__item.projets__lmdbdm {
+    background-image: url(../../img/img_lmdbdm/back_lmdbbm_tel.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.container__item.projets__mds {
+    background-image: url(../../img/img_mds/back_mds_tel.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.main__service .container__item {
+    background: #D8E3E5;
+}

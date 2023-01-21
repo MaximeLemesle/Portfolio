@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Monterio bold";
+    src: local("../../assets/fonts/monterio-bold-webfont.woff2"),
+  ("../../assets/fonts/monterio-bold-webfont.woff"),
+}
+@font-face {
+    font-family: "Monterio semibold";
+    src: local("../../assets/fonts/monterio-semibold-webfont.woff2"),
+  ("../../assets/fonts/monterio-semibold-webfont.woff"),
+}
+
+h1 {
+    font-family: 'Monterio';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.125rem;
+    text-align: center;
+    color: #252525;
+    margin: 1rem;
+    margin-bottom: 1.875rem;
+}
+
+h2 {
+    font-family: 'Monterio';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #252525;
+}
+
+p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #252525;
+}
+
+.light {
+    color: #EEEAE7;
+}

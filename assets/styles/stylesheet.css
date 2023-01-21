@@ -1,0 +1,8 @@
+@import "./base/normalize.css";
+@import "./base/fonts.css";
+@import "./components/cards.css";
+@import "./components/skills.css";
+@import "./layouts/section.css";
+@import "./layouts/header.css";
+@import "./layouts/footer.css";
+@import "./pages/index.css";
