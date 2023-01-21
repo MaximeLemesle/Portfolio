@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Monterio bold";
-    src: url("../../fonts/monterio-bold-webfont.woff2"),
-  ("../../fonts/monterio-bold-webfont.woff"),
+    src: url("../../fonts/monterio-bold-webfont.woff2") format("woff2"),
+  ("../../fonts/monterio-bold-webfont.woff") format("woff"),
 }
 @font-face {
     font-family: "Monterio semibold";
-    src: url("../../fonts/monterio-semibold-webfont.woff2"),
-  ("../../fonts/monterio-semibold-webfont.woff"),
+    src: url("../../fonts/monterio-semibold-webfont.woff2") format("woff2"),
+  ("../../fonts/monterio-semibold-webfont.woff") format("woff"), 
 }
 
 h1 {
