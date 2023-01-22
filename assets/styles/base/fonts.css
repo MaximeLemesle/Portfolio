@@ -1,30 +1,38 @@
 @font-face {
-    font-family: "Monterio bold";
+    font-family: "Monterio";
     src: url("../../fonts/monterio-bold-webfont.woff2") format("woff2"),
-  ("../../fonts/monterio-bold-webfont.woff") format("woff"),
+            ("../../fonts/monterio-bold-webfont.woff") format("woff");
+    font-weight: 700;
 }
 @font-face {
-    font-family: "Monterio semibold";
+    font-family: "Monterio";
     src: url("../../fonts/monterio-semibold-webfont.woff2") format("woff2"),
-  ("../../fonts/monterio-semibold-webfont.woff") format("woff"), 
+            ("../../fonts/monterio-semibold-webfont.woff") format("woff");
+    font-weight: 600;
 }
 
 h1 {
     font-family: 'Monterio';
     font-style: normal;
-    font-weight: 600;
-    font-size: 3.125rem;
+    font-size: 3.25rem;
     text-align: center;
     color: #252525;
-    margin: 1rem;
-    margin-bottom: 1.875rem;
 }
 
 h2 {
     font-family: 'Monterio';
     font-style: normal;
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #252525;
+}
+
+h3 {
+    font-family: 'Monterio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
     text-align: center;
     color: #252525;
 }
